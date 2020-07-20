@@ -1,0 +1,27 @@
+.primary {
+  color: #ef5f7a;
+}
+
+.secondary {
+  color: #091d42;
+}
+
+.white {
+  color: white;
+}
+
+.background-primary {
+  background-color: #ef5f7a;
+}
+
+.background-secondary {
+  background-color: #091d42;
+}
+
+.background-light {
+  background-color: #f3f4fa;
+}
+
+.background-white {
+  background-color: white;
+}
