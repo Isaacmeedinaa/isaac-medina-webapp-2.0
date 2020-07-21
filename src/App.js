@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from "react";
-import { Container, Button } from "react-bootstrap";
+import React, { Component } from "react";
+import {} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import "./Colors.css";

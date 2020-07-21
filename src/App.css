@@ -1,6 +1,6 @@
 .custom-navbar {
   width: 100%;
-  height: 70px;
+  height: 60px;
   padding: 15px 25px 15px 25px;
   position: fixed;
   top: 0;
@@ -8,6 +8,7 @@
   flex-direction: row;
   align-items: center;
   z-index: 2 !important;
+  border-bottom: 1px solid rgb(214, 214, 214);
 }
 
 .custom-navbar-title {
@@ -43,6 +44,67 @@
   font-size: 15px;
 }
 
+.custom-menu-navbar {
+  width: 100%;
+  height: auto;
+  padding: 15px 25px 15px 25px;
+  position: fixed;
+  top: 0;
+  z-index: 2 !important;
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.custom-menu-navbar-title {
+  display: inline;
+  position: relative;
+  top: 2.5px;
+  margin: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+}
+
+.custom-menu-navbar-icon {
+  float: right;
+}
+
+.custom-menu-navbar-icon:hover {
+  display: inline;
+  cursor: pointer;
+}
+
+.custom-menu-navbar-menu-list-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  animation: alternate-reverse;
+}
+
+.custom-menu-navbar-menu-list {
+  padding: 0;
+  margin-bottom: 0px;
+  list-style-type: none;
+}
+
+.custom-menu-navbar-li {
+  margin-bottom: 10px;
+}
+
+.custom-menu-navbar-link {
+  font-size: 15px;
+  /* text-transform: uppercase; */
+  -webkit-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+}
+
+.custom-menu-navbar-link:hover {
+  color: #ef5f7a;
+  text-decoration: none;
+  font-size: 16px;
+}
+
 #contactMeBtn {
   padding: 8px 15px 8px 15px;
   border-radius: 100px;
@@ -75,6 +137,7 @@
 }
 
 .home-intro-text-wrapper {
+  margin-top: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,10 +178,155 @@
   font-size: 15px;
   padding: 10px 15px 10px 15px;
   border-radius: 100px;
-  width: 150px;
+  width: 170px;
   align-self: center;
 }
 
 .home-intro-btn:hover {
   background-color: #d7556e;
+}
+
+.home-intro-btn-outline {
+  margin-top: 20px;
+  border-color: #ef5f7a;
+  border-width: 2px;
+  font-size: 15px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 100px;
+  width: 170px;
+  align-self: center;
+  color: #091d42;
+}
+
+.home-intro-btn-outline:hover {
+  background-color: #ef5f7a;
+  border-color: #ef5f7a;
+  border-width: 2px;
+  color: white;
+}
+
+.home-about-me-container {
+  padding: 35px 25px 35px 25px;
+}
+
+.home-about-me-header-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-section-title {
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.section-block {
+  width: 35px;
+  height: 6px;
+  align-self: center;
+}
+
+.home-about-me-content-container {
+  margin-top: 40px;
+}
+
+.home-about-me-content-one {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.home-about-me-text {
+  margin: 0;
+}
+
+.home-about-me-content-two {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.home-about-me-img {
+  width: 280px;
+  height: 280px;
+  border-radius: 250px;
+  border: 2px solid #091d42;
+}
+
+.home-my-skills-container {
+  padding: 35px 25px 35px 25px;
+}
+
+.home-my-skills-header-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-my-skills-content-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.home-my-skills-skill-list {
+  list-style-type: none;
+  /* text-align: center; */
+}
+
+.home-my-skills-skill-item::before {
+  content: "• ";
+  color: #ef5f7a;
+}
+
+.home-my-skills-skill-item {
+  margin-bottom: 25px;
+}
+
+.custom-footer-container {
+  padding: 35px 25px 35px 25px;
+}
+
+.custom-footer-social-media-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-footer-social-media-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.custom-footer-social-media-item {
+  display: inline;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 1016px) {
+  .home-about-me-content-container {
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+  .home-about-me-img {
+    width: 230px;
+    height: 230px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .home-about-me-content-one {
+    align-self: center;
+  }
+  .home-about-me-content-two {
+    margin-top: 0px;
+    align-self: center;
+    text-align: start;
+    /* text-align: center; */
+  }
 }
