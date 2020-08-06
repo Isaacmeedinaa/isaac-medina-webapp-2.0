@@ -64,7 +64,11 @@ class CustomMenuNavbar extends Component {
                 </a>
               </li>
               <li className="custom-menu-navbar-li">
-                <a className="custom-menu-navbar-link primary" href="/blog">
+                <a
+                  className="custom-menu-navbar-link primary"
+                  href="https://medium.com/@isaac.meedinaa"
+                  target="_blank"
+                >
                   Blog
                 </a>
               </li>

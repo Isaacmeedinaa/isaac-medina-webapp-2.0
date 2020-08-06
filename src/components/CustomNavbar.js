@@ -32,7 +32,11 @@ class CustomNavbar extends Component {
             </a>
           </li>
           <li className="custom-navbar-li">
-            <a className="custom-navbar-link primary" href="/blog">
+            <a
+              className="custom-navbar-link primary"
+              href="https://medium.com/@isaac.meedinaa"
+              target="_blank"
+            >
               Blog
             </a>
           </li>
