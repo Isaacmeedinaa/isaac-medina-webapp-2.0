@@ -55,7 +55,11 @@ class CustomMenuNavbar extends Component {
                 </a>
               </li>
               <li className="custom-menu-navbar-li">
-                <a className="custom-menu-navbar-link primary" href="/resume">
+                <a
+                  className="custom-menu-navbar-link primary"
+                  href="https://drive.google.com/file/d/1SuQTZATWjm2TOebPrsN7sJ93jfBotz5Q/view?usp=sharing"
+                  target="_black"
+                >
                   Resume
                 </a>
               </li>
