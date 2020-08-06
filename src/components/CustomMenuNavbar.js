@@ -37,9 +37,19 @@ class CustomMenuNavbar extends Component {
           <div className="custom-menu-navbar-menu-list-container">
             <ul className="custom-menu-navbar-menu-list">
               <li className="custom-menu-navbar-li">
+                <a className="custom-menu-navbar-link primary" href="#aboutme">
+                  About Me
+                </a>
+              </li>
+              <li className="custom-menu-navbar-li">
+                <a className="custom-menu-navbar-link primary" href="#myskills">
+                  My Skills
+                </a>
+              </li>
+              <li className="custom-menu-navbar-li">
                 <a
                   className="custom-menu-navbar-link primary"
-                  href="/portfolio"
+                  href="#portfolio"
                 >
                   Portfolio
                 </a>
@@ -55,7 +65,10 @@ class CustomMenuNavbar extends Component {
                 </a>
               </li>
               <li id="contactMeLink">
-                <a className="custom-menu-navbar-link primary" href="/contact">
+                <a
+                  className="custom-menu-navbar-link primary"
+                  href="#contactme"
+                >
                   Contact Me
                 </a>
               </li>
