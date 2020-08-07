@@ -421,8 +421,68 @@
 }
 
 .contact-me-content-one {
+  align-items: center;
+  justify-content: center;
   text-align: center;
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-me-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-me-input {
+  padding: 10px 10px;
+  width: 400px;
+  height: 40px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.contact-me-input:focus {
+  outline: none;
+  border: 2px solid #ef5f7a;
+  border-radius: 5px;
+}
+
+.contact-me-textarea {
+  padding: 10px 10px;
+  width: 400px;
+  width: 400px;
+  height: 130px;
+  border: none;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.contact-me-textarea:focus {
+  outline: none;
+  border: 2px solid #ef5f7a;
+  border-radius: 5px;
+}
+
+.contact-me-btn {
+  width: 400px;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-me-btn:hover {
+  background-color: #d7556e;
+}
+
+.contact-me-btn:focus {
+  outline: none;
 }
 
 @media screen and (min-width: 1016px) {
