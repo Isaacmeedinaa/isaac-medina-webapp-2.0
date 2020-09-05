@@ -49,13 +49,13 @@ class HomePageContainer extends Component {
               </p>
               <Button
                 className="home-intro-btn background-primary"
-                onClick={() => this.props.history.push("portfolio")}
+                href="#portfolio"
               >
                 My Portfolio
               </Button>
               <Button
                 className="home-intro-btn-outline background-light"
-                onClick={() => this.props.history.push("contact")}
+                href="#contactme"
               >
                 Let's Get in Touch!
               </Button>
