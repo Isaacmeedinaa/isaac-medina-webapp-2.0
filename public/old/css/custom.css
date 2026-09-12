@@ -1790,3 +1790,14 @@ blockquote footer {
 		font-size:28px;
 	}
 }
+
+.resume-link {
+	background-color: #34495E;
+	color: white;
+	font-size: 18px;
+}
+
+.resume-link:hover {
+	background-color: #34495E;
+	color: white;
+}

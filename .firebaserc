@@ -1,6 +1,5 @@
 {
   "projects": {
-    "default": "isaac-medina-webapp",
-    "Portfolio": "isaac-medina-webapp"
+    "default": "isaac-dev-webapp"
   }
 }

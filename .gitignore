@@ -1,1 +1,8 @@
 node_modules/
+dist/
+.firebase/
+*.local
+*.tsbuildinfo
+.DS_Store
+
+*-debug.log
