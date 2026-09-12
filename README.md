@@ -15,7 +15,7 @@ Open http://localhost:5173. `npm start` is an alias for the same development ser
 
 ## Publish to Firebase
 
-The existing Firebase project, `isaac-dev-webapp`, remains configured in `.firebaserc`.
+The Firebase project `isaac-medina-webapp` (project ID `isaac-medina-webapp-e9cb6`) is configured in `.firebaserc`.
 
 First authenticate on this computer:
 
@@ -82,6 +82,6 @@ Reference: [Vite static deployment](https://vite.dev/guide/static-deploy) and [F
 
 ## Sharing and dependency maintenance
 
-Sharing metadata uses the existing project’s default domain, `isaac-dev-webapp.web.app`. If you use a custom domain, update the absolute `og:image` URL in `index.html`.
+Sharing metadata uses the project’s default domain, `isaac-medina-webapp-e9cb6.web.app`. If you use a custom domain, update the absolute `og:image` URL in `index.html`.
 
 The Firebase CLI currently introduces nine moderate development-only audit findings through its upstream dependency tree. These tools are not bundled into the public site. Compatible audit fixes were attempted; npm’s remaining suggestion would downgrade Firebase across major versions, so the current CLI is retained. Recheck with `npm audit` when updating the toolchain.
