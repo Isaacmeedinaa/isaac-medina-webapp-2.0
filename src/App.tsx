@@ -521,17 +521,22 @@ export default function App() {
                 <span className="small-label">ALWAYS A STUDENT</span>Flatiron School · Software
                 Engineering
               </span>
-              <a
-                className="icon-button"
-                href={profile.linkedin}
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Isaac Medina on LinkedIn"
-              >
-                <span className="linkedin-mark" aria-hidden="true">
-                  in
-                </span>
-              </a>
+              <div className="about-social-links">
+                <a className="text-link" href={profile.github} target="_blank" rel="noreferrer">
+                  GitHub <ArrowUpRight size={16} aria-hidden="true" />
+                </a>
+                <a
+                  className="icon-button"
+                  href={profile.linkedin}
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Isaac Medina on LinkedIn"
+                >
+                  <span className="linkedin-mark" aria-hidden="true">
+                    in
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
         </section>

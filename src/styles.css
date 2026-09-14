@@ -1107,6 +1107,14 @@ svg {
 .about-footer > span {
   font-size: 10px;
 }
+.about-footer {
+  flex-wrap: wrap;
+}
+.about-social-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
 .about-footer .small-label {
   display: block;
   font-size: 9px;

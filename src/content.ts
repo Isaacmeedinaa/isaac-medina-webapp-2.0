@@ -2,7 +2,7 @@ export const profile = {
   name: 'Isaac Medina',
   email: 'isaac.medina0118@gmail.com',
   linkedin: 'https://www.linkedin.com/in/isaac-m1/',
-  github: 'https://github.com/Isaacmeedinaa',
+  github: 'https://github.com/isaacmeedinaa',
   resume: '/isaac-medina-resume.pdf',
 }
 
