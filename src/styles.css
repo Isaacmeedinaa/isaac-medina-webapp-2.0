@@ -599,7 +599,7 @@ svg {
 }
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
   align-items: start;
   min-height: 514px;
@@ -745,6 +745,19 @@ svg {
 .walmart .project-app-icon {
   top: 142px;
   left: 29px;
+}
+.customer-spark .project-visual {
+  background: #0071ce;
+}
+.customer-spark .project-art-word {
+  font-size: 32px;
+  letter-spacing: -1.8px;
+}
+.customer-spark .project-visual-bottom {
+  background: #00539b;
+}
+.customer-spark .project-screen {
+  aspect-ratio: 392/696;
 }
 .project-copy {
   padding: 21px 1px 0;

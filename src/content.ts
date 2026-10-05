@@ -96,6 +96,31 @@ export const projects: Project[] = [
       },
     ],
   },
+  {
+    id: 'customer-spark',
+    number: '04',
+    name: 'Walmart Customer Spark',
+    company: 'Walmart',
+    category: 'Consumer',
+    role: 'Mobile engineer · iOS & Android',
+    description:
+      'Giving Walmart customers a voice through mobile surveys, community activities, and rewards.',
+    impact: 'Built the iOS and Android mobile apps.',
+    tags: ['Mobile development', 'iOS', 'Android'],
+    brief:
+      'Bring Walmart’s Customer Spark Community to mobile, helping invited members share feedback on products and services and earn points toward rewards.',
+    contributions: [
+      'Built the Customer Spark mobile apps for both iOS and Android as part of the Walmart engineering team.',
+    ],
+    links: [
+      { label: 'Customer Spark Community', href: 'https://customersparkcommunity.walmart.com/' },
+      { label: 'App Store', href: 'https://apps.apple.com/us/app/customer-spark/id1638777395' },
+      {
+        label: 'Google Play',
+        href: 'https://play.google.com/store/apps/details?id=com.walmart.customerspark&hl=en_US',
+      },
+    ],
+  },
 ]
 
 export const experience = [

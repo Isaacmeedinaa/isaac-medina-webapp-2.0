@@ -258,12 +258,13 @@ export default function App() {
                     onClick={() => setFilter(item)}
                   >
                     {item}
-                    {item === 'All work' && <span>03</span>}
+                    {item === 'All work' && <span>{String(projects.length).padStart(2, '0')}</span>}
                   </button>
                 ))}
               </div>
               <span className="work-count" aria-live="polite">
-                0{visibleProjects.length} PROJECT{visibleProjects.length === 1 ? '' : 'S'}
+                {String(visibleProjects.length).padStart(2, '0')} PROJECT
+                {visibleProjects.length === 1 ? '' : 'S'}
               </span>
             </div>
             <div className="project-grid">
@@ -280,7 +281,9 @@ export default function App() {
                           ? 'BUILT FOR RESOLUTION.'
                           : item.id === 'vivid'
                             ? 'MADE FOR THE MOMENT.'
-                            : 'BUILT FOR EVERY DAY.'}
+                            : item.id === 'customer-spark'
+                              ? 'POWERED BY YOUR VOICE.'
+                              : 'BUILT FOR EVERY DAY.'}
                       </span>
                       <ArrowUpRight size={19} />
                     </span>
@@ -309,7 +312,9 @@ export default function App() {
                         ? 'MOBILE COMMERCE'
                         : item.id === 'finra'
                           ? 'DISPUTE RESOLUTION'
-                          : 'ASSOCIATE EXPERIENCE'}
+                          : item.id === 'customer-spark'
+                            ? 'CUSTOMER COMMUNITY'
+                            : 'ASSOCIATE EXPERIENCE'}
                       <span>iOS / ANDROID</span>
                     </span>
                   </button>
